@@ -88,8 +88,15 @@ Checked on 10 October 2026:
 
 These checks do **not** establish an authenticated production handshake in Claude/ChatGPT, a successful live meeting workflow, directory acceptance or a completed third-party review.
 
-The registry manifest uses **`io.github.elori-debug/mcp`**, matching the verified publishing GitHub account. The public documentation repository is https://github.com/elori-debug/elori-mcp. Registry publication uses GitHub Actions OIDC; no customer credentials or long-lived publishing keys are required. Check the registry and workflow result before claiming that a version is published. This is a registry identity, not the URL users connect to: the endpoint remains **https://elori.app/mcp**.
+The registry manifest uses **`io.github.elori-debug/mcp`**, matching the verified publishing GitHub account. The public documentation repository is https://github.com/elori-debug/elori-mcp. Official-registry publication is pending its publisher's separate GitHub authorization. Check the registry result before claiming that a version is published. This is a registry identity, not the URL users connect to: the endpoint remains **https://elori.app/mcp**.
 
-This repository contains documentation and metadata only, not Elori's server implementation. It does not claim an open-source license for the hosted service. Publishing is manually triggered, rather than automatically running on every documentation change.
+This repository contains documentation and metadata only, not Elori's server implementation. It does not claim an open-source license for the hosted service. There is no automatic publishing workflow in this repository.
+
+Community submissions currently awaiting maintainer review:
+
+- TensorBlock MCP Index: https://github.com/TensorBlock/awesome-mcp-servers/pull/3445
+- mcpHQ catalog: https://github.com/mcpHQ/awesome-mcp-servers/pull/190
+
+A submitted pull request is not an accepted directory listing. No official Claude or OpenAI directory acceptance is claimed.
 
 Only documentation and public metadata should be uploaded to a launch repository. Do not upload Elori's private application, database contents, environment files, OAuth credentials, reviewer passwords or customer data.
