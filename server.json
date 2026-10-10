@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.elori-debug/mcp",
+  "title": "Elori",
+  "description": "Sales pipeline, contacts, meetings and approved CRM workflows with existing Elori permissions.",
+  "version": "1.0.0",
+  "websiteUrl": "https://elori.app",
+  "icons": [
+    {
+      "src": "https://elori.app/assets/elori-icon.webp",
+      "mimeType": "image/webp"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://elori.app/mcp"
+    }
+  ]
+}
