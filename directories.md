@@ -4,7 +4,7 @@ Researched: 10 October 2026. “Prepared” is not “submitted”, “approved�
 
 | Destination | Submission route | Current status / requirements |
 | --- | --- | --- |
-| Official MCP Registry | https://modelcontextprotocol.io/registry/remote-servers | Manifest prepared as `io.github.elori-debug/mcp`, using the verified GitHub owner and OIDC publication. Publication receipt pending. Registry publication is separate from a Claude directory listing. |
+| Official MCP Registry | https://modelcontextprotocol.io/registry/remote-servers | Manifest validated as `io.github.elori-debug/mcp`. Official publisher's separate GitHub authorization and publication still pending. GitHub Actions workflow was not installed because the CLI grant lacks workflow permissions; no permissions were bypassed. Registry publication is separate from a Claude directory listing. |
 | Anthropic / Claude Connectors Directory | https://claude.ai/directory/manage | Not submitted. Paid Claude account with submission access, review of directory terms, listing assets, reviewer test account and successful testing of each tool in Claude required. |
 | OpenAI directory | https://platform.openai.com/plugins | Not submitted. Current official flow requires a plugin package, verified publishing identity, MCP review and client tests; a bare registry entry does not create a ChatGPT directory listing. |
 | Glama remote connectors | https://glama.ai/mcp/connectors | Not submitted. Use Add Server and complete its registration/review. Do not invent a connector badge URL before approval. |
@@ -17,6 +17,8 @@ Researched: 10 October 2026. “Prepared” is not “submitted”, “approved�
 | punkpeye/awesome-mcp-servers | https://github.com/punkpeye/awesome-mcp-servers | Not applicable to Elori's remote-only service: contributing guide requires an installable public repository and refers remote-only servers to its remote list. |
 | modelcontextprotocol/servers | https://github.com/modelcontextprotocol/servers | Not an open commercial listing target. Current README directs listings to the Official MCP Registry; this repository maintains reference implementations. |
 | appcypher/awesome-mcp-servers | https://github.com/appcypher/awesome-mcp-servers | Archived; no PR submitted. Readable contribution rules do not mean a repository is still accepting submissions. |
+| TensorBlock MCP Index | https://github.com/TensorBlock/awesome-mcp-servers | **Submitted:** https://github.com/TensorBlock/awesome-mcp-servers/pull/3445. One entry under Marketing, Sales & CRM. Awaiting maintainer review; not yet an accepted listing. |
+| mcpHQ catalog | https://github.com/mcpHQ/awesome-mcp-servers | **Submitted:** https://github.com/mcpHQ/awesome-mcp-servers/pull/190. Catalog validation and README/llms generation checks passed. Awaiting maintainer review; not yet an accepted listing. |
 
 ## Shared listing fields
 
